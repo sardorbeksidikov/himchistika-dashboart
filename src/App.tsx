@@ -1,11 +1,15 @@
-import React from 'react'
+import { BrowserRouter } from "react-router-dom";
+// import Login from "./components/Login";
+import Router from "./router/Router";
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <BrowserRouter>
+      {/* <Login /> */}
 
-export default App
+      <Router />
+    </BrowserRouter>
+  );
+};
+
+export default App;

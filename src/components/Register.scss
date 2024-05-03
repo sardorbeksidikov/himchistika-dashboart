@@ -1,0 +1,117 @@
+.reg_content {
+  display: flex;
+  align-items: start;
+  .back {
+    display: flex;
+    margin-top: 50px;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: sans-serif;
+      font-weight: bolder;
+      text-decoration: none;
+      span {
+        color: #000;
+
+        font-size: 30px;
+        font-family: sans-serif;
+    
+      }
+    }
+  }
+  .register {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    .reg_head {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      h1 {
+        display: flex;
+        font-family: sans-serif;
+        font-size: 40px;
+        font-weight: bolder;
+        color: #000;
+        margin: 10px 0;
+        padding: 0;
+      }
+    }
+    .reg_form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      gap: 4px;
+      .reg_group {
+        display: flex;
+        flex-direction: column;
+        label {
+          display: flex;
+          font-family: sans-serif;
+          font-size: 20px;
+          font-weight: bolder;
+          color: #000;
+        }
+        input {
+          width: 400px;
+          height: 50px;
+          border: 0;
+          outline: 0;
+          border-radius: 4px;
+          padding: 0 10px;
+          margin: 10px 0;
+          font-family: sans-serif;
+          font-size: 20px;
+          background-color: #98939338 !important;
+        }
+      }
+      .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button {
+          width: 400px;
+          height: 50px;
+          border: 0;
+          outline: 0;
+          border-radius: 4px;
+          padding: 0 10px;
+          margin: 10px 0;
+          color: white;
+          font-family: sans-serif;
+          font-size: 20px;
+          transition: all 0.3s ease-in-out;
+          cursor: pointer;
+          background-color: hsl(202, 90%, 31%) !important;
+          &:hover {
+            background-color: hsl(202, 90%, 41%) !important;
+          }
+          &:active {
+            background-color: hsl(202, 90%, 51%) !important;
+          }
+        }
+      }
+      .tizim {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        span {
+          font-family: sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          color: #5b5858;
+        }
+        a {
+          font-family: sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          color: hsl(202, 90%, 41%) !important;
+        }
+      }
+    }
+  }
+}
