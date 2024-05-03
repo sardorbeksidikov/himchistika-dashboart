@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Login.scss";
-
-const LoginImg = "./assets/logiinImg.png";
+import LoginImg from '../assets/logiinImg.png'
+;
 const Login = () => {
   return (
     <div>
